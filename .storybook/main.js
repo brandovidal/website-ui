@@ -13,11 +13,9 @@ module.exports = {
     "@storybook/addon-interactions",
     "@storybook/addon-a11y",
   ],
-  // Add nextjs preset
-  // framework: "@storybook/react",
   core: {
     builder: "webpack5",
   },
-  staticDirs: ["../public"],
+  // staticDirs: ["../public"],
   presets: [path.resolve(__dirname, "./next-preset.js")],
 };

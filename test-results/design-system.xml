@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Design system tests" tests="1" failures="0" errors="0" time="4.41">
-  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-12-16T13:25:27" time="4.022" tests="1">
-    <testcase classname=" Button should be accessible" name=" Button should be accessible" time="0.018">
+<testsuites name="Design system tests" tests="1" failures="0" errors="0" time="3.197">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-12-16T13:34:05" time="2.595" tests="1">
+    <testcase classname=" Button should be accessible" name=" Button should be accessible" time="0.019">
     </testcase>
   </testsuite>
 </testsuites>

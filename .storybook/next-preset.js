@@ -31,7 +31,12 @@ module.exports = {
     // SCSS 
     newConfig.module.rules.push({
       test: /\.(s*)css$/,
-      loaders: ['style-loader', 'css-loader', 'sass-loader'],
+      use: ['style-loader', {
+          loader: "css-loader",
+          options: {
+            url: false,
+          },
+        }, 'sass-loader'],
       include: path.resolve(__dirname, '../styles/global.scss'),
     });
     

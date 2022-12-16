@@ -9,7 +9,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "storybook": "start-storybook -p 6006 -c .storybook",
+    "build-storybook": "build-storybook -s public"
   },
   "dependencies": {
     "@next/font": "13.0.7",
@@ -26,6 +28,13 @@
   },
   "devDependencies": {
     "@babel/core": "7.20.5",
+    "@storybook/addon-a11y": "6.5.14",
+    "@storybook/addon-actions": "6.5.14",
+    "@storybook/addon-essentials": "6.5.14",
+    "@storybook/addon-interactions": "6.5.14",
+    "@storybook/addon-links": "6.5.14",
+    "@storybook/builder-webpack5": "6.5.14",
+    "@storybook/manager-webpack5": "6.5.14",
     "@storybook/preset-typescript": "3.0.0",
     "@storybook/react": "6.5.14",
     "babel-loader": "9.1.0",
